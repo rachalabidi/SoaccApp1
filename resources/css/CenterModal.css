@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+
+/* addTeacherModal.css */
+
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* If you need to center the modal header, body, and footer individually, you can use the following additional styles: */
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-body {
+    flex-grow: 1;
+}
+
+.modal .modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 700px;
+}
+
+.modal .modal-header,
+.modal .modal-body,
+.modal .modal-footer {
+    padding: 20px 30px;
+}
+
+.modal .modal-content {
+    border-radius: 3px;
+}
+
+.modal .modal-footer {
+    background: #ecf0f1;
+    border-radius: 0 0 3px 3px;
+}
+
+.modal .modal-title {
+    display: inline-block;
+}
+
+.modal .form-control {
+    border-radius: 2px;
+    box-shadow: none;
+    border-color: #dddddd;
+    width: 100%; /* Set the width to 100% */
+}
+
+.modal textarea.form-control , .modal .text{
+    resize: vertical;
+    width: 100%; /* Set the width to 100% */
+}
+
+.modal .btn {
+    border-radius: 2px;
+    min-width: 200px;
+}
+
+.modal form label {
+    font-weight: normal;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions a {
+    text-decoration: none;
+    font-weight: bold;
+}
